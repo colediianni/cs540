@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- <head> -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CS540 Fall 2022</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CS540 Fall 2022 Course Homepage">
+    <link rel="canonical" href="index.html">
+    <!-- Set href to an ico file to add a browser tab icon. -->
+    <link rel="shortcut icon" href="img/badger.ico" type="image/vnd.microsoft.icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"> -->
+    <!-- Flatly Bootstrap Theme -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- OpenSans: 45ms load time. -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'> -->
+    <!-- Ubuntu -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+    <!-- Raleway (bold only for headings, use 500 for normal): 59ms load time -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'> -->
+    <!-- Nothing You Could Do, 400: 21ms load time -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'> -->
+
+    <!-- </head> -->
+
+    <link rel="stylesheet" href="css/panels.css">
+
+
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+
+    <div id="wrapper">
+
+        <nav id="sidebar-wrapper" class="navbar navbar-default nav-side-menu">
+            <div style="padding-top:10px;text-align: center;">
+                <a href="index.html"><img src="img/CS540_logo.jpg" style="width:118px;height:34px;" alt="CS540 logo"></a>
+            </div>
+
+            <div class="menu-list">
+                <ul id="menu-content" class="nav nav-stacked nav-pills menu-content">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="about.html">About</a></li>
+                    <li role="presentation"><a href="annoucenments.html">Announcements</a></li>
+                    <li role="presentation"><a href="schedule.html">Schedule</a></li>
+                    <li role="presentation" class="active"><a href="teaching_team.html">Teaching Team</a></li>
+                    <li role="presentation"><a href="office_hours.html">Office Hours </a></li>
+                    <!-- <li role="presentation"><a href="office_hours.html">Office Hours </a></li> -->
+                </ul>
+                <hr>
+                <h4 style="margin-left: 15px; color: #3BB9FF">Important Links</h5>
+                    <hr>
+                    <ul id="menu-content" class="nav nav-stacked nav-pills menu-content">
+                        <li role="presentation"><a href="http://piazza.com/wisc/fall2022/cs540">Piazza</a></li>
+                        <li role="presentation"><a href="https://canvas.wisc.edu/courses/308833">Canvas</a></li>
+
+                    </ul>
+            </div>
+        </nav>
+
+
+        <section class="section1">
+            <div class="row" style="padding-top: 20px;">
+                <div class="col-md-2" style="padding-left: 45px; padding-bottom: 0px;padding-top: 0px;"><a
+                        href="index.html#menu-toggle" clazz="btn btn-default" id="menu-toggle"><i
+                            class="fa fa-bars fa-2x toggle-btn"></i></a></div>
+                <div class="col-md-6">
+                    <p
+                        style="font-size:36px;font-family:News Cycle,Arial Narrow Bold,sans-serif;text-align: center;color:black;font-weight:bolder;padding: 0px;">
+                        CS540 Introduction to Artificial Intelligence</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="text-align: right;padding-right: 20px;">
+                        CS540, Fall 2022<br>
+                        Department of Computer Sciences<br>
+                        University of Wisconsin–Madison<br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+        </section>
+
+
+
+
+        <div id="page-content-wrapper">
+
+            <section class="container-fluid section2" name="toTop" id="topPos" style="padding-top: 0px;">
+
+                <div class="row">
+
+                    <div class="col-lg-9 col-xs-12">
+
+                        <!-- Instructors -->
+                        <h2 id="instructors">Instructors</h2>
+
+                        <div class="staffer">
+                            <img class="staffer-image"
+                                src="https://pages.cs.wisc.edu/~yliang/img/YingyuLiang.png"
+                                alt="Yingyu">
+                            <div>
+                                <h3 class="staffer-name">
+                                    <a href="http://pages.cs.wisc.edu/~yliang/" target="_blank"
+rel="noopener"> Yingyu Liang</a> (Section 1)
+                                </h3>
+                                <p><a href="mailto:yliang@cs.wisc.edu">yliang@cs.wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Tuesday 3:45pm-5pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image"
+                                src="https://pages.cs.wisc.edu/~fredsala/FredericSala.jpg"
+                                alt="Fred Sala">
+                            <div>
+                                <h3 class="staffer-name">
+                                    <a href="https://pages.cs.wisc.edu/~fredsala/" target="_blank" rel="noopener">Fred
+                                        Sala</a>   (Section 2)
+                                </h3>
+                                <p><a href="mailto:fredsala@cs.wisc.edu">fredsala@cs.wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 11am-12pm & Thursday 9am-10am</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image"
+                                src="https://pages.cs.wisc.edu/~kandasamy/images/kandasamy_headshot.jpeg"
+                                alt="Yingyu">
+                            <div>
+                                <h3 class="staffer-name">
+                                    <a href="http://pages.cs.wisc.edu/~kandasamy/" target="_blank"
+rel="noopener">Kirthi Kandasamy</a> (Section 3)
+                                </h3>
+                                <p><a href="mailto:kandasamy@cs.wisc.edu">kandasamy@cs.wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Tuesday 3:45pm-5pm</p> -->
+                            </div>
+                        </div>
+
+
+                        <h2 id="teaching-assistnats">Teaching Assistants</h2>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Brian Huang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Brian Huang</a></h3>
+                                <p><a href="mailto:thuang273@wisc.edu">thuang273@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Hugh Liu">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Hugh Liu</a></h3>
+                                <p><a href="mailto:yliu785@wisc.edu">yliu785@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ziqian Lin">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ziqian Lin</a></h3>
+                                <p><a href="mailto:zlin284@wisc.edu">zlin284@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ziyi Zhang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ziyi Zhang</a></h3>
+                                <p><a href="mailto:ziyi.zhang2@wisc.edu">ziyi.zhang2@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Yuxin Sun">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Yuxin Sun</a></h3>
+                                <p><a href="mailto:sun288@wisc.edu">sun288@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Asmit Nayak">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Asmit Nayak</a></h3>
+                                <p><a href="mailto:anayak6@wisc.edu">anayak6@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Cole DiIanni">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Cole DiIanni</a></h3>
+                                <p><a href="mailto:diianni@wisc.edu">diianni@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Justin Kiefel">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Justin Kiefel</a></h3>
+                                <p><a href="mailto:jkiefel@wisc.edu">jkiefel@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Tim Ossowski">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Tim Ossowski</a></h3>
+                                <p><a href="mailto:ossowski@wisc.edu">ossowski@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+
+                        <h2 id="instructors">Graders</h2>
+
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Akshay Parashar">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Akshay Parashar</a></h3>
+                                <p><a href="mailto:aparashar@wisc.edu">aparashar@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Pavithran Ravichandiran">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Pavithran Ravichandiran</a></h3>
+                                <p><a href="mailto:pravichandir@wisc.edu">pravichandir@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Shreyansh Sharma">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Shreyansh Sharma</a></h3>
+                                <p><a href="mailto:ssharma242@wisc.edu">ssharma242@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Kalyani Unnikrishnan">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Kalyani Unnikrishnan</a></h3>
+                                <p><a href="mailto:kunnikrishna@wisc.edu">kunnikrishna@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Krishna Ganeriwal">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Krishna Ganeriwal</a></h3>
+                                <p><a href="mailto:ganeriwal@wisc.edu">ganeriwal@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Kriti Goyal">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Kriti Goyal</a></h3>
+                                <p><a href="mailto:kgoyal6@wisc.edu">kgoyal6@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+
+                        <h2 id="peer-mentors">Peer Mentors</h2>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ashutosh Sadhan Bakre">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ashutosh Sadhan Bakre</a></h3>
+                                <p><a href="mailto:asbakre@wisc.edu">asbakre@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Venkat Akhil Boddupalli">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Venkat Akhil Boddupalli</a></h3>
+                                <p><a href="mailto:vboddupalli@wisc.edu">vboddupalli@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ziyang Cai">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ziyang Cai</a></h3>
+                                <p><a href="mailto:zcai75@wisc.edu">zcai75@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Neel Pravin Chaudhari">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Neel Pravin Chaudhari</a></h3>
+                                <p><a href="mailto:nchaudhari@wisc.edu">nchaudhari@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Shreyas Gopal Dhoot">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Shreyas Gopal Dhoot</a></h3>
+                                <p><a href="mailto:dhoot2@wisc.edu">dhoot2@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Junhao Fu">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Junhao Fu</a></h3>
+                                <p><a href="mailto:jfu85@wisc.edu">jfu85@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Wei-Chun Huang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Wei-Chun Huang</a></h3>
+                                <p><a href="mailto:whuang288@wisc.edu">whuang288@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Tianze Huang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Tianze Huang</a></h3>
+                                <p><a href="mailto:thuang255@wisc.edu">thuang255@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Mina Kim">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Mina Kim</a></h3>
+                                <p><a href="mailto:mkim665@wisc.edu">mkim665@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Weiyu Kong">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Weiyu Kong</a></h3>
+                                <p><a href="mailto:wkong32@wisc.edu">wkong32@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Zhucheng Li">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Zhucheng Li</a></h3>
+                                <p><a href="mailto:zli2288@wisc.edu">zli2288@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Wenjia Li">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Wenjia Li</a></h3>
+                                <p><a href="mailto:wli498@wisc.edu">wli498@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Xuanhan Liu">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Xuanhan Liu</a></h3>
+                                <p><a href="mailto:xliu2238@wisc.edu">xliu2238@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Anyong Mao">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Anyong Mao</a></h3>
+                                <p><a href="mailto:amao6@wisc.edu">amao6@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Abhinav Mitra">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Abhinav Mitra</a></h3>
+                                <p><a href="mailto:amitra8@wisc.edu">amitra8@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ojal Sethi">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ojal Sethi</a></h3>
+                                <p><a href="mailto:osethi2@wisc.edu">osethi2@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Yijie Shi">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Yijie Shi</a></h3>
+                                <p><a href="mailto:shi257@wisc.edu">shi257@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ryan Peter Szymanski">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ryan Peter Szymanski</a></h3>
+                                <p><a href="mailto:rpszymanski@wisc.edu">rpszymanski@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Linbo Tang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Linbo Tang</a></h3>
+                                <p><a href="mailto:ltang67@wisc.edu">ltang67@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Ruixuan Tu">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Ruixuan Tu</a></h3>
+                                <p><a href="mailto:ruixuan.tu@wisc.edu">ruixuan.tu@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Adwait Devakinandan Vaidya">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Adwait Devakinandan Vaidya</a></h3>
+                                <p><a href="mailto:adwait.vaidya120@gmail.com">adwait.vaidya120@gmail.com</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Chelsea Autumn Verheyen">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Chelsea Autumn Verheyen</a></h3>
+                                <p><a href="mailto:cverheyen@wisc.edu">cverheyen@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Jingle Wang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Jingle Wang</a></h3>
+                                <p><a href="mailto:jwang2324@wisc.edu">jwang2324@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Tianyou Wen">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Tianyou Wen</a></h3>
+                                <p><a href="mailto:twen22@wisc.edu">twen22@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Yu Xia">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Yu Xia</a></h3>
+                                <p><a href="mailto:xia73@wisc.edu">xia73@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Yifei Zhang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Yifei Zhang</a></h3>
+                                <p><a href="mailto:yzhang2536@wisc.edu">yzhang2536@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Jinming Zhang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Jinming Zhang</a></h3>
+                                <p><a href="mailto:jzhang2279@wisc.edu">jzhang2279@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Hongtao Zhang">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Hongtao Zhang</a></h3>
+                                <p><a href="mailto:hzhang784@wisc.edu">hzhang784@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+                        <div class="staffer">
+                            <img class="staffer-image" src="img/blank-avatar.jpg" alt="Yamin Zhou">
+                            <div>
+                                <h3 class="staffer-name">
+                                    Yamin Zhou</a></h3>
+                                <p><a href="mailto:zhou463@wisc.edu">zhou463@wisc.edu</a></p>
+                                <!-- <p class="staffer-meta">Office Hours: Wednesday 3pm-4pm</p> -->
+                            </div>
+                        </div>
+
+
+
+                    </div> <!-- //Close Col -->
+
+                    <!-- Floating Content Panel -->
+                    <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
+                        <div class="panel panel-default panel-affix" id="myScrollspy">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">
+                                Contents
+                            </div>
+                            <div class="panel-body">
+                                <div id="toc"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr>
+            <section class="container-fluid footer" id="footer">
+                <footer>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><small>This website is powered
+                                    by <a href="https://jekyllrb.com/">Jekyll</a> and
+                                    <a href="http://getbootstrap.com">Bootstrap</a>,
+                                    and the template is borrowed from <a
+                                        href="http://pages.cs.wisc.edu/~yliang/cs760_spring20/index.html">Yingyu
+                                        Liang</a>.</small></p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </div>
+
+
+    </div>
+
+
+
+    </div>
+
+
+    <!-- Place this at the end of the page for faster load times. -->
+
+    <!-- jQuery [required for Bootstrap] -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- MathJax -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+        type="text/javascript"></script>
+
+
+    <script src='js/toc.js'></script>
+    <script src='js/panels.js'></script>
+
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+            $("#toggler").toggleClass("toggled");
+        });
+    </script>
+
+
+</body>
+
+</html>

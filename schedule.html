@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- <head> -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CS540 Fall 2022</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CS540 Fall 2022 Course Homepage">
+    <link rel="canonical" href="index.html">
+    <!-- Set href to an ico file to add a browser tab icon. -->
+    <link rel="shortcut icon" href="img/badger.ico" type="image/vnd.microsoft.icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"> -->
+    <!-- Flatly Bootstrap Theme -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- OpenSans: 45ms load time. -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'> -->
+    <!-- Ubuntu -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+    <!-- Raleway (bold only for headings, use 500 for normal): 59ms load time -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'> -->
+    <!-- Nothing You Could Do, 400: 21ms load time -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'> -->
+
+    <!-- </head> -->
+
+    <link rel="stylesheet" href="css/panels.css">
+
+
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+
+    <div id="wrapper">
+
+        <nav id="sidebar-wrapper" class="navbar navbar-default nav-side-menu">
+            <div style="padding-top:10px;text-align: center;">
+                <a href="index.html"><img src="img/CS540_logo.jpg" style="width:118px;height:34px;"
+                        alt="CS540 logo"></a>
+            </div>
+
+            <div class="menu-list">
+                <ul id="menu-content" class="nav nav-stacked nav-pills menu-content">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="about.html">About</a></li>
+                    <li role="presentation"><a href="annoucenments.html">Announcements</a></li>
+                    <li role="presentation" class="active"><a href="schedule.html">Schedule</a></li>
+                    <li role="presentation"><a href="teaching_team.html">Teaching Team</a></li>
+                    <li role="presentation"><a href="office_hours.html">Office Hours </a></li>
+                </ul>
+                <hr>
+                <!-- <h4  style="margin-left: 15px; color: #3BB9FF">Week Lectures</h5>
+                <hr>
+                <ul id="menu-content" class="nav nav-stacked nav-pills menu-content">
+                    <li role="presentation" ><a href="index.html">Lecture 1</a></li>
+                    <li role="presentation" ><a href="index.html">Lecture 2</a></li>
+                    <li role="presentation" ><a href="index.html">Lecture 3</a></li>
+                </ul> -->
+                <h4 style="margin-left: 15px; color: #3BB9FF">Important Links</h5>
+                    <hr>
+                    <ul id="menu-content" class="nav nav-stacked nav-pills menu-content">
+                        <li role="presentation"><a href="http://piazza.com/wisc/fall2022/cs540">Piazza</a></li>
+                        <li role="presentation"><a href="https://canvas.wisc.edu/courses/308833">Canvas</a></li>
+
+                    </ul>
+            </div>
+        </nav>
+
+
+        <section class="section1">
+            <div class="row" style="padding-top: 20px;">
+                <div class="col-md-2" style="padding-left: 45px; padding-bottom: 0px;padding-top: 0px;"><a
+                        href="index.html#menu-toggle" clazz="btn btn-default" id="menu-toggle"><i
+                            class="fa fa-bars fa-2x toggle-btn"></i></a></div>
+                <div class="col-md-6">
+                    <p
+                        style="font-size:36px;font-family:News Cycle,Arial Narrow Bold,sans-serif;text-align: center;color:black;font-weight:bolder;padding: 0px;">
+                        CS540 Introduction to Artificial Intelligence</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="text-align: right;padding-right: 20px;">
+                        CS540, Fall 2022<br>
+                        Department of Computer Sciences<br>
+                        University of Wisconsin–Madison<br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+        </section>
+
+
+
+
+        <div id="page-content-wrapper">
+
+            <section class="container-fluid section2" name="toTop" id="topPos">
+
+                <div class="row">
+
+                    <div class="col-xs-12">
+
+                        <h3 id="schedule">Schedule (Subject to Change)</h3>
+
+<!-- <span style="color:Tomato;">We should go over this. </span> -->
+
+                        <div class="table-responsive">
+                            <table class="table  table-bordered table-hover">
+                                <tbody>
+                                    <tr class="leading">
+
+                                        <th>Date</th>
+                                        <th>Topic</th>
+                                        <th>Reading materials</th>
+                                        <th>Assignments</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Sep 8</td>
+                                        <td>Welcome and Course Overview </td>
+                                        <td><a href="documents/python.pptx">Python Crash Course</a> (self-study), <a
+                                                href="documents/lec1.pdf">Slides</a></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1138104">HW1
+                                                Released</a></td> -->
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Sep 13</td>
+                                        <td>Probability </td>
+                                        <!-- <td><<a href="documents/CS540-1-28-Probability.pdf">Slides</a>, <a
+                                                href="documents/Jan-28-quiz.pdf"> Quiz</a> (<a
+                                                href="documents/Jan-28-quiz-answers.pdf">answers</a>)</td> -->
+                                                <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Sep 15</td>
+                                        <td><a
+                                                href="https://drive.google.com/file/d/1BTGkvBc-m3bCpLqf84j7uZhlWMksQKRK/view?usp=sharing">Linear
+                                                Algebra and PCA </a></td>
+                                        <!-- <td><a href="documents/CS540-LinearAlgebraPCA.pdf">Slides</a>, <a
+                                                href="documents/CS540-LinearAlgebraPCAQuiz.pdf">Quiz</a> (<a
+                                                href="documents/Feb-2 Quiz answers.pdf">answers</a>)</td> -->
+                                                <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1138104">HW1
+                                                Due</a>, <a
+                                                href="https://canvas.wisc.edu/courses/230450/assignments/1148333">HW 2
+                                                Released</a></td> -->
+                                                <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Sep 20</td>
+                                        <td><a href="https://drive.google.com/file/d/1VGb_q8Z0ZVPHVHYOTxe2p7VUhqf4Pu7L/view?usp=sharing">Statistics and Math Review</a></td>
+                                        <!-- <td><a href="documents/CS540-StatsMathReview.pdf">Slides,</a> <a
+                                                    href="documents/CS540-StatsMathReviewQuiz.pdf">Quiz</a> (<a
+                                                    href="documents/Feb-4 Quiz answers.pdf">answers</a>)</td> -->
+                                                    <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Sep 22</td>
+                                        <td><a href="https://drive.google.com/file/d/1YktiAREpOT5RAgNx5D1-yIeKKwRkka6K/view?usp=sharing">Introduction to Logic</a> </td>
+                                        <!-- <td><a href="documents/CS540-Logic.pdf">Slides, </a><a
+                                            href="documents/CS540-LogicQuiz.pdf">Quiz</a> (<a
+                                            href="documents/Feb-9 Quiz answers.pdf">answers</a>)</td> -->
+                                            <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1148333">HW 2
+                                                Due</a>, <a href="https://canvas.wisc.edu/courses/230450/assignments/1151635">HW 3 Released</a></td> -->
+                                                <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Sep 27</td>
+                                        <td><a href="https://drive.google.com/file/d/13G0FpWKO2YEQz6PrWlf6YUsHumH6snd9/view?usp=sharing">Natural Language Processing</a></td>
+                                        <!-- <td><a href="documents/CS540-NLP.pdf">Slides, </a><a
+                                            href="documents/CS540-NLP-Quiz.pdf">Quiz</a> (<a
+                                            href="documents/Feb-11 Quiz answers.pdf">answers</a>)
+                                        </td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Sep 29</td>
+                                        <td><a href="https://drive.google.com/file/d/1PqkM1ZBjAOTgx1z4qvdAvT7pHydgSHxB/view?usp=sharing">Machine Learning: Introduction </a></td>
+                                        <!-- <td><a href="documents/introML.pdf">Slides, </a><a
+                                            href="documents/introML-quiz.pdf">Quiz</a> (<a
+                                            href="documents/introML-quiz-answer.pdf">answers</a>)
+                                        </td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1151635">HW3 Due</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Oct 4</td>
+                                        <td><a href="https://drive.google.com/file/d/1VOEUhw2Zl-WP1pw8KwMoYlmI0LOZ8K_h/view?usp=sharing">Machine Learning: Unsupervised Learning I</a></td>
+                                        <!-- <td><a href="documents/CS540-UL1.pdf">Slides, </a><a
+                                            href="documents/CS540-UL1Quiz.pdf">Quiz</a> (<a
+                                            href="documents/Feb-18 Quiz answers.pdf">answers</a>)
+                                        </td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Oct 6</td>
+                                        <td><a href="https://drive.google.com/file/d/1pMnSZp0Emy9T3DW8nmUd895nVXdXxDr9/view?usp=sharing">Machine Learning: Unsupervised Learning II</a> </td>
+                                        <!-- <td><a href="documents/CS540-UL2.pdf">Slides, </a><a href="documents/CS540-UL1Quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1156696">HW 4 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Oct 11</td>
+                                        <td> <a href="https://drive.google.com/file/d/1X72Ri6PKXbmMriheARxd2uo0f_6cmRKt/view?usp=sharing">Machine Learning: Linear regression, </a><a href="https://drive.google.com/file/d/1Pr-taVr41nhc9Ga0awfui8ge1gYkx3xs/view?usp=sharing">Bonus Slide Recording</a> </td>
+                                        <!-- <td><a href="documents/CS540-LinearModels.pdf">Slides, </a> <a href="documents/CS540-LinearModelsQuiz.pptx">Quiz, </a> <a href="documents/CS540-LinearRegression.pdf">Bonus Lecture Slides</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Oct 13</td>
+                                        <td><a href="https://drive.google.com/file/d/1mwlVXXyuFCsJC9BYKE7vIjhRE6Bmdi9J/view?usp=sharing">Machine Learning: K - Nearest Neighbors & Naive Bayes</a></td>
+                                        <!-- <td><a href="documents/knn-naive-bayes-updated.pdf">Slides, </a><a href="documents/knn-MLE-quiz.pdf">Quiz </a><a href="https://www.cs.cornell.edu/courses/cs5740/2016sp/resources/collins_em.pdf">Extended reading on MLE and Naive Bayes</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1156696">HW 4 Due, </a><a href="https://canvas.wisc.edu/courses/230450/assignments/1164425">HW 5 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Oct 18</td>
+                                        <td><a href="https://drive.google.com/file/d/1tdw0Lk5GfHnCuutIUzF5ypAdiijoB3Qj/view?usp=sharing">Machine Learning: Neural Network I (Perceptron)</a> </td>
+                                        <!-- <td><a href="documents/neural-network-1.pdf">Slides, </a><a href="documents/perceptron-quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Oct 20</td>
+                                        <td><a href= "https://drive.google.com/file/d/1MrPVFeXGAFzob5de1BoBg8JnUl9WVhms/view?usp=sharing">Machine Learning: Neural Network II</a> </td>
+                                        <!-- <td><a href="documents/neural-network-2.pdf">Slides, </a><a href="documents/neural-network-2-quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1164425">HW 5 Due, </a><a href="https://canvas.wisc.edu/courses/230450/assignments/1169743">HW 6 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td>Tuesday, Oct 25</td>
+                                        <td><a href="https://drive.google.com/file/d/17JozqBNDVmEgCd935aMmaRcXLj0VM5lT/view?usp=sharing">Machine Learning: Neural Network III </a></td>
+                                        <!-- <td><a href="documents/neural-network-3.pdf">Slides, </a><a href="documents/neural-network-3-quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Oct 27</td>
+                                        <td colspan="2" style="align-items: center;text-align: center;">Study Break for Midterm Exam (No Lecture) </td>
+                                        <!-- <td></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="4" style="align-items: center;text-align: center;"><strong>MIDTERM EXAM TBD</strong></td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Nov 1</td>
+                                        <td><a href="https://drive.google.com/file/d/10bSyMvoi8sGPVPWRu_z4zwzf5AQA-i_N/view?usp=sharing">Machine Learning: Deep Learning I</a> </a></td>
+                                        <!-- <td><a href="documents/cnn1.pdf">Slides, </a><a href="documents/cnn1quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Sunday, March 21</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1169743">HW 6 Due</a></td>
+                                    </tr> -->
+
+
+                                    <tr>
+                                        <td>Thursday, Nov 3</td>
+                                        <td><a href="https://drive.google.com/file/d/1GRAARhuIx6jt1omQD1jUCqR2rFGAzmAi/view?usp=sharing">Machine Learning: Deep Learning II</a> </td>
+                                        <!-- <td><a href="documents/cnn2.pdf">Slides, </a><a href="documents/cnn2quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1173261">HW 7 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Nov 8</td>
+                                        <td><a href="https://drive.google.com/file/d/1T54us5qDsJ3C_9Eu-1axKadxF4sxsoM_/view?usp=sharing">Machine Learning: Deep Learning III</a> </td>
+                                        <!-- <td><a href="documents/CS540-DL3.pdf">Slides, </a><a href="documents/CS540-DL3-Quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Nov 10</td>
+                                        <td><a href="https://drive.google.com/file/d/1fvGZWS8_gkQPIutyQC6dfEI-lVxS0riV/view?usp=sharing">Machine Learning: Deep Learning and Neural Network's Summary</a> </td>
+                                        <!-- <td><a href="documents/dl review.pdf">Slides, </a><a href="documents/dlReviewQuiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1173261">HW 7 Due</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>Tuesday, Nov 15</td>
+                                        <td><a href="https://drive.google.com/file/d/1rb0xZrxun1wXcK7wGwKhVKUT0zTtJ3xN/view?usp=sharing">Game - Part I</a> </td>
+                                        <!-- <td><a href="documents/CS540-Games1.pdf">Slides, </a><a href="documents/CS540-Games1Quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Nov 17</td>
+                                        <td><a href="https://drive.google.com/file/d/1uvFm6QOnnQrwipDaEP7fgYB8xLG2SvUt/view?usp=sharing">Game - Part II</a> </td>
+                                        <!-- <td><a href="documents/CS540-Games2.pdf">Slides, </a><a href="documents/CS540-Games2Quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1178764">HW 8 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Nov 22</td>
+                                        <td><a href="https://drive.google.com/file/d/1wwzTDJyoQmWqea3KJjPlUEu-99pd0xS2/view?usp=sharing">Search I: Un-Informed search</a> </td>
+                                        <!-- <td><a href="documents/uninformed_search.pdf">Slides, </a><a href="documents/uninformed search.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="4" style="align-items: center;text-align: center;"><strong>Thanksgiving recess:	Nov 24-Nov 27</strong></td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Nov 29</td>
+                                        <td><a href="https://drive.google.com/file/d/1gRXCWNRuS8wae0Wlgh91U0iIjPUoYFjv/view?usp=sharing">Search II: Informed search </a></td>
+                                        <!-- <td><a href="documents/CS540-SearchII.pdf">Slides, </a><a href="documents/CS540-SearchIIQuiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1178764">HW 8 Due, </a><a href="https://canvas.wisc.edu/courses/230450/assignments/1184880">HW 9 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Thursday, Dec 1</td>
+                                        <td><a href="https://drive.google.com/file/d/1jNMoDpXghNhFyOG0wYAsbqjxLXKHQy_0/view?usp=sharing">Advanced Search</a> </td>
+                                        <!-- <td><a href="documents/CS540-SearchIII.pdf">Slides, </a><a href="documents/CS540-SearchIIIQuiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Dec 6</td>
+                                        <td><a href="https://drive.google.com/file/d/11AoBpO3mjHqdoJuscdKxPRKyarFZYFt6/view?usp=sharing">Introduction to Reinforcement Learning</a> </td>
+                                        <!-- <td><a href="documents/CS540-RL.pdf">Slides, </a><a href="documents/CS540-RLQuiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <!-- <td></a><a href="https://canvas.wisc.edu/courses/230450/assignments/1184880">HW 9 Due, </a><a href="https://canvas.wisc.edu/courses/230450/assignments/1188392">HW 10 Released</a></td> -->
+                                        <td></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>Thursday, Dec 8</td>
+                                        <td><a href="https://drive.google.com/file/d/1n-LrGm7Q0nJEKmZ2PlRXSA54k1LSy1_o/view?usp=sharing">Reinforcement Learning and Search Summary</a> </td>
+                                        <!-- <td><a href="documents//CS540-RLIIReview.pdf">Slides, </a><a href="documents/CS540-RLIIQuiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tuesday, Dec 13</td>
+                                        <td><a href="https://drive.google.com/file/d/1ecwKNnDKFCealqR74FOc6o-FvFnETX-L/view?usp=sharing">Ethics and Trust in AI</a></td>
+                                        <!-- <td><a href="documents/trust AI.pdf">Slides, </a><a href="documents/trust_AI_quiz.pdf">Quiz</a></td> -->
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <!-- <tr>
+                                        <td>Thursday, Dec 15</td>
+                                        <td><a href="https://drive.google.com/file/d/19OJmydN2vDvwCmONRbS2rDlnCvGHnpcR/view?usp=sharing">Artificial Intelligence in the Real World </a></td>
+                                        <td><a href="documents/real world AI.pdf">Slides, </a><a href="documents/realWorldAI_Quiz.pdf">Quiz</a></td>
+                                        <td></td>
+                                        <td><a href="https://canvas.wisc.edu/courses/230450/assignments/1188392">HW 10 Due</a></td>
+                                        <td></td>
+                                    </tr> -->
+
+                                    <tr>
+                                        <td colspan="4" style="align-items: center;text-align: center;"><strong>FINAL EXAM TBD</strong></td></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div> <!-- //Close Col -->
+
+                </div>
+
+            </section>
+
+            <hr>
+            <section class="container-fluid footer" id="footer">
+                <footer>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--
+                                    <p><small>Last updated September 3, 2018 (03:43 PM).</small></p>
+									-->
+                            <p><small>This website is powered
+                                    by <a href="https://jekyllrb.com/">Jekyll</a> and
+                                    <a href="http://getbootstrap.com">Bootstrap</a>,
+                                    and the template is borrowed from <a
+                                        href="http://www.cs.cmu.edu/~mgormley/courses/10601b-f16/index.html">Yingyu
+                                        Liang</a>.</small></p>
+                        </div>
+                    </div>
+        </div>
+
+        </footer>
+        </section>
+    </div>
+
+
+
+    </div>
+
+
+    <!-- Place this at the end of the page for faster load times. -->
+
+    <!-- jQuery [required for Bootstrap] -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- MathJax -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+        type="text/javascript"></script>
+
+
+    <script src='js/toc.js'></script>
+    <script src='js/panels.js'></script>
+
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+            $("#toggler").toggleClass("toggled");
+        });
+    </script>
+
+
+</body>
+
+</html>
